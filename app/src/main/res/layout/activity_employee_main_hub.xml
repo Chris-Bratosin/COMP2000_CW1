@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/main_hub"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/chris_bratosin"
+        android:textColor="#666666"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_my_details"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_details_2"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <Button
+        android:id="@+id/btn_holidays"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="@string/holidays"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <Button
+        android:id="@+id/btn_settings"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="@string/log_out"
+        android:textSize="18sp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+
+
+</LinearLayout>
