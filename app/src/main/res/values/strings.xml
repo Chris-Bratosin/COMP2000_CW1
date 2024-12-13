@@ -80,6 +80,13 @@
     <string name="admin_username">Admin Username</string>
     <string name="admin_passwordhint">Admin Password</string>
     <string name="hide_password_img">hide_password</string>
+    <string name="admin_name">Jamie Dimon</string>
+    <string name="admin_holiday_requests">Holiday Requests</string>
+    <string name="admin_delete_employee_profile">Delete Employee Profile</string>
+    <string name="admin_create_employee_profile">Create Employee Profile</string>
+    <string name="admin_view_existing_employees">View Existing Employees</string>
+    <string name="settings_button">Settings</string>
+    <string name="logout_button">Logout</string>
     <!-- Main Hub Page Strings -->
 
     <!-- My Details Page Strings -->
