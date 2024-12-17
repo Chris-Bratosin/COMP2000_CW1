@@ -74,8 +74,6 @@
     <string name="password_has_been_successfully_reset">Password has been successfully reset</string>
 
 
-
-
     <string name="adminLogin">Admin Login</string>
     <string name="admin_username">Admin Username</string>
     <string name="admin_passwordhint">Admin Password</string>
@@ -87,6 +85,34 @@
     <string name="admin_view_existing_employees">View Existing Employees</string>
     <string name="settings_button">Settings</string>
     <string name="logout_button">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="adminD_name">Jamie</string>
+    <string name="adminD_email">Jamie.dimon@bkr.com</string>
+    <string name="adminD_surname">Dimon</string>
+    <string name="adminD_number">07394 618751</string>
+    <string name="adminD_ID">Admin ID : 2486</string>
+    <string name="adminD_addressline">11 Armado Ave</string>
+    <string name="adminD_county">Devon</string>
+    <string name="adminD_postcode">PL7 1Q3</string>
+    <string name="adminD_city">Plymouth</string>
+    <string name="adminD_editDbtn">Edit Details</string>
+    <string name="adminD_mainhubBtn">Main Hub</string>
+    <string name="adminD_profilepicture">adminD_profilepicture</string>
+    <string name="adminED_title">Edit Details</string>
+    <string name="a_Password">Password</string>
+    <string name="a_Username">Username</string>
+    <string name="name_edit">name_edit</string>
+    <string name="surname_edit">surname_edit</string>
+    <string name="email_edit">email_edit</string>
+    <string name="number_edit">number_edit</string>
+    <string name="address_edit">address_edit</string>
+    <string name="city_edit">city_edit</string>
+    <string name="postcode_edit">postcode_edit</string>
+    <string name="county_edit">county_edit</string>
+    <string name="eidt_image">eidt_image</string>
+    <string name="edit_mainhub">Main Hub</string>
+    <string name="editdetail_btn">Edit Details</string>
     <!-- Main Hub Page Strings -->
 
     <!-- My Details Page Strings -->
