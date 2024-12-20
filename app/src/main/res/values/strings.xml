@@ -113,6 +113,26 @@
     <string name="eidt_image">eidt_image</string>
     <string name="edit_mainhub">Main Hub</string>
     <string name="editdetail_btn">Edit Details</string>
+
+
+    <string name="admin_HolidayRequest">Holiday Requests</string>
+    <string name="admin_HolidayRequest1">Chris Bratosin</string>
+    <string name="admin_HolidayReason1">I am requesting a holiday for 15/11/2024 – 17/11/2024 to attend my family wedding.</string>
+    <string name="admin_AcceptButton1">Accept</string>
+    <string name="admin_DeclineButton1">Decline</string>
+    <string name="admin_HolidayRequest2">Justin Chan</string>
+    <string name="admin_HolidayReason2">I am requesting a holiday for 25/10/2024 – 01/11/2024 to go on a holiday with my children.</string>
+    <string name="admin_AcceptButton2">Accept</string>
+    <string name="admin_DeclineButton2">Decline</string>
+    <string name="admin_HolidayRequest3">Charles Hopes</string>
+    <string name="admin_HolidayReason3">I am requesting a holiday for 22/11/2024 – 24/11/2024 to go and get knee replacement surgery.</string>
+    <string name="admin_AcceptButton3">Accept</string>
+    <string name="admin_DeclineButton3">Decline</string>
+    <string name="adminHolReq_ReturnMainHub">Main Hub</string>
+    <string name="admin_declineDescription1">Decline for reuqest 1</string>
+    <string name="admin_declineDescription2">Decline for request 2</string>
+    <string name="admin_acceptDescription1">Accept for reqeust 1</string>
+    <string name="admin_acceptDescription2">Accept for request 2</string>
     <!-- Main Hub Page Strings -->
 
     <!-- My Details Page Strings -->

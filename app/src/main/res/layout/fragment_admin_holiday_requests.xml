@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_holiday_requests">
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/requestHoliday_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/admin_HolidayRequest"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Holiday Request 1 -->
+
+    <LinearLayout
+        android:id="@+id/holidayRequest_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestHoliday_Title">
+
+        <!-- Name and Details -->
+
+        <TextView
+            android:id="@+id/employeeRequest_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/admin_HolidayRequest1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/employeeReason_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/admin_HolidayReason1" />
+
+        <!-- Accept and Decline Buttons -->
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/acceptButton_1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/white"
+                android:contentDescription="@string/admin_acceptDescription1"
+                android:text="@string/admin_AcceptButton1"
+                tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/declineButton_1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/dark_red"
+                android:contentDescription="@string/admin_declineDescription1"
+                android:text="@string/admin_DeclineButton1"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Holiday Request 2 -->
+
+    <LinearLayout
+        android:id="@+id/holidayRequest_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/holidayRequest_1">
+
+        <!-- Name and Details -->
+
+        <TextView
+            android:id="@+id/employeeRequest_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/admin_HolidayRequest2"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/employeeReason_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/admin_HolidayReason2" />
+
+        <!-- Accept and Decline Buttons -->
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/acceptButton_2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/white"
+                android:contentDescription="@string/admin_acceptDescription2"
+                android:text="@string/admin_AcceptButton2" />
+
+            <Button
+                android:id="@+id/declineButton_2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/dark_red"
+                android:textColor="@color/white"
+                android:contentDescription="@string/admin_declineDescription2"
+                android:text="@string/admin_DeclineButton2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Holiday Request 3 -->
+
+    <LinearLayout
+        android:id="@+id/holidayRequest_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/holidayRequest_2">
+
+        <!-- Name and Details -->
+
+        <TextView
+            android:id="@+id/employeeRequest_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/admin_HolidayRequest3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/employeeReason_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/admin_HolidayReason3" />
+
+        <!-- Accept and Decline Buttons -->
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/acceptButton_3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/white"
+                android:text="@string/admin_AcceptButton3" />
+
+            <Button
+                android:id="@+id/declineButton_3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/dark_red"
+                android:textColor="@color/white"
+                android:text="@string/admin_DeclineButton3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Return Main Hub Button -->
+    <Button
+        android:id="@+id/Holiday_ReturnToHome"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/adminHolReq_ReturnMainHub"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/holidayRequest_3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
