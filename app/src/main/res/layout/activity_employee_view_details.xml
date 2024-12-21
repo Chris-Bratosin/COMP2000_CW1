@@ -24,7 +24,6 @@
         tools:ignore="VisualLintOverlap" />
 
 
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -87,9 +86,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="233dp"
         android:layout_marginTop="293dp"
-        android:layout_marginEnd="87dp"
+        android:layout_marginEnd="57dp"
         android:layout_marginBottom="419dp"
-        android:text="@string/employee_phonenumber"
+        android:text="@string/employee_joindate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,9 +100,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="233dp"
         android:layout_marginTop="345dp"
-        android:layout_marginEnd="77dp"
+        android:layout_marginEnd="61dp"
         android:layout_marginBottom="367dp"
-        android:text="@string/employee_payroll"
+        android:text="@string/employee_annualleaves"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,9 +114,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="59dp"
         android:layout_marginTop="403dp"
-        android:layout_marginEnd="252dp"
+        android:layout_marginEnd="281dp"
         android:layout_marginBottom="309dp"
-        android:text="@string/employee_address"
+        android:text="@string/employee_id"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,9 +128,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="59dp"
         android:layout_marginTop="454dp"
-        android:layout_marginEnd="293dp"
+        android:layout_marginEnd="303dp"
         android:layout_marginBottom="258dp"
-        android:text="@string/employee_city"
+        android:text="@string/employee_department"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -145,21 +144,7 @@
         android:layout_marginTop="501dp"
         android:layout_marginEnd="313dp"
         android:layout_marginBottom="211dp"
-        android:text="@string/employee_county"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="233dp"
-        android:layout_marginTop="501dp"
-        android:layout_marginEnd="124dp"
-        android:layout_marginBottom="211dp"
-        android:text="@string/employee_postcode"
+        android:text="@string/employee_salary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -167,6 +152,7 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
@@ -177,11 +163,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="119dp"
         android:layout_height="48dp"
         android:layout_marginStart="145dp"
@@ -192,6 +178,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

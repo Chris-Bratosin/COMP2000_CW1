@@ -1,5 +1,5 @@
-<resources>
-    <string name="app_name">COMP2000_CW1</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">COMP2000_CW!</string>
     <!-- Login Page Strings -->
     <string name="employee_login">Employee Login</string>
     <string name="username">Username</string>
@@ -36,7 +36,7 @@
     <string name="employee_manage_holiday_btn">Manage Holidays</string>
     <string name="employee_manage_holiday_return">Main Hub</string>
     <string name="employee_main_name">Chris Bratosin</string>
-    <string name="deletebtn_1">deletebtn1</string>
+    <string name="deletebtn_1" tools:ignore="Typos">deletebtn1</string>
     <string name="deletebtn_2">deletebtn2</string>
     <string name="deletebtn_3">deletebtn3</string>
     <string name="deletebtn_4">deletebtn4</string>
@@ -60,18 +60,23 @@
     <string name="employee_select_holiday">Select Holiday</string>
     <string name="manageholoidaypageimage">manageholoidaypageimage</string>
     <string name="view_updates">View Updates</string>
-    <string name="view_updates_1">You have been assigned to work 19/11/2024 @ 09:00 - 17:30</string>
+    <string name="view_updates_1">You have been assigned to work 19/11/2024 @ 09:00 – 17:30</string>
     <string name="view_updates_2">You have received your annual 5% salary increase. Well Done !</string>
-    <string name="view_updates_3">Holiday 15/11/2024 - 17/11/2024 has been approved by Jamie Dimon !</string>
+    <string name="view_updates_3">Holiday 15/11/2024 – 17/11/2024 has been approved by Jamie Dimon !</string>
     <string name="my_details_image">my_details_image</string>
     <string name="forgot_password_title">Forgot Password?</string>
-    <string name="forgotpassword_info">Please enter your email address to recieve password reset link</string>
+    <string name="forgotpassword_info">Please enter your email address to receive password reset link</string>
     <string name="enter_email_address_forgot">Enter Email Address</string>
     <string name="send_password_email">Send Email</string>
     <string name="enter_new_password">Enter New Password</string>
     <string name="confirm_new_password">Confirm New Password</string>
     <string name="reset_password">Reset Password</string>
     <string name="password_has_been_successfully_reset">Password has been successfully reset</string>
+    <string name="employee_joindate">Joined 24/12/2004</string>
+    <string name="employee_annualleaves">Annual Leaves : 30</string>
+    <string name="employee_id">ID : 241224</string>
+    <string name="employee_department">Finance</string>
+    <string name="employee_salary">£2500</string>
     <!-- Main Hub Page Strings -->
 
     <!-- My Details Page Strings -->
