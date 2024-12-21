@@ -87,15 +87,9 @@
     <string name="logout_button">Logout</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="adminD_name">Jamie</string>
-    <string name="adminD_email">Jamie.dimon@bkr.com</string>
-    <string name="adminD_surname">Dimon</string>
-    <string name="adminD_number">07394 618751</string>
-    <string name="adminD_ID">Admin ID : 2486</string>
-    <string name="adminD_addressline">11 Armado Ave</string>
-    <string name="adminD_county">Devon</string>
-    <string name="adminD_postcode">PL7 1Q3</string>
-    <string name="adminD_city">Plymouth</string>
+
+
+
     <string name="adminD_editDbtn">Edit Details</string>
     <string name="adminD_mainhubBtn">Main Hub</string>
     <string name="adminD_profilepicture">adminD_profilepicture</string>
@@ -115,6 +109,7 @@
     <string name="editdetail_btn">Edit Details</string>
 
 
+    <!--Admin View Holiday Requests-->
     <string name="admin_HolidayRequest">Holiday Requests</string>
     <string name="admin_HolidayRequest1">Chris Bratosin</string>
     <string name="admin_HolidayReason1">I am requesting a holiday for 15/11/2024 – 17/11/2024 to attend my family wedding.</string>
@@ -133,11 +128,39 @@
     <string name="admin_declineDescription2">Decline for request 2</string>
     <string name="admin_acceptDescription1">Accept for reqeust 1</string>
     <string name="admin_acceptDescription2">Accept for request 2</string>
+    <!--Admin View Holiday Requests-->
+
+
     <string name="employee_salary">£2500\n</string>
     <string name="employee_id">241224\n</string>
     <string name="employee_department">Finance\n</string>
     <string name="employee_annualleaves">Annual Leaves: 30</string>
     <string name="employee_joindate">Joined : 24/10/2024\n</string>
+
+    <!--Admin Details Page Strings -->
+    <string name="adminDetails_name">Jamie</string>
+    <string name="adminDetails_email">Jamie.dimon@bkr.com</string>
+    <string name="adminDetails_surname">Dimon</string>
+    <string name="adminDetails_ID">Admin ID: 2486</string>
+    <string name="adminDetails_Department">Administrator</string>
+    <string name="adminDetails_Salary">£5750</string>
+    <string name="adminDetails_Leaves">Annual Leaves: 30</string>
+    <string name="adminDetails_dateJoined">Date Joined: 20/08/2018</string>
+    <string name="createEmployee_Title">Create Employee Profile</string>
+    <string name="createEmployee_Image">defaultImage</string>
+    <string name="createEmployee_Forename">Forename</string>
+    <string name="createEmployee_Email">Email Address</string>
+    <string name="createEmployee_Surname">Surname</string>
+    <string name="createEmployee_joinDate">Join Date (DD/MM/YYYY)</string>
+    <string name="createEmployee_ID">ID</string>
+    <string name="createEmployee_Department">Department</string>
+    <string name="createEmployee_Salary">Salary</string>
+    <string name="createEmployee_AnnualLeaves">Annual Leaves:</string>
+    <string name="createEmployee_MainHubBtn">Main Hub</string>
+    <string name="createEmployee_ConfirmBtn">Confirm</string>
+    <!--Admin Details Page Strings -->
+
+
     <!-- Main Hub Page Strings -->
 
     <!-- My Details Page Strings -->

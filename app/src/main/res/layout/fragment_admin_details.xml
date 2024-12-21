@@ -45,7 +45,7 @@
         android:layout_marginTop="237dp"
         android:layout_marginEnd="337dp"
         android:layout_marginBottom="475dp"
-        android:text="@string/adminD_name"
+        android:text="@string/adminDetails_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +59,7 @@
         android:layout_marginTop="241dp"
         android:layout_marginEnd="55dp"
         android:layout_marginBottom="471dp"
-        android:text="@string/adminD_email"
+        android:text="@string/adminDetails_email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +73,7 @@
         android:layout_marginTop="308dp"
         android:layout_marginEnd="335dp"
         android:layout_marginBottom="404dp"
-        android:text="@string/adminD_surname"
+        android:text="@string/adminDetails_surname"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,10 +84,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="211dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="109dp"
-        android:layout_marginBottom="400dp"
-        android:text="@string/adminD_number"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="404dp"
+        android:text="@string/adminDetails_dateJoined"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,11 +101,13 @@
         android:layout_marginTop="371dp"
         android:layout_marginEnd="101dp"
         android:layout_marginBottom="341dp"
-        android:text="@string/adminD_ID"
+        android:text="@string/adminDetails_Leaves"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView50"
@@ -115,11 +117,13 @@
         android:layout_marginTop="415dp"
         android:layout_marginEnd="279dp"
         android:layout_marginBottom="297dp"
-        android:text="@string/adminD_addressline"
+        android:text="@string/adminDetails_ID"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView52"
@@ -129,25 +133,13 @@
         android:layout_marginTop="539dp"
         android:layout_marginEnd="336dp"
         android:layout_marginBottom="173dp"
-        android:text="@string/adminD_county"
+        android:text="@string/adminDetails_Salary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView53"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="211dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="176dp"
-        android:text="@string/adminD_postcode"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView51"
@@ -157,11 +149,13 @@
         android:layout_marginTop="475dp"
         android:layout_marginEnd="316dp"
         android:layout_marginBottom="237dp"
-        android:text="@string/adminD_city"
+        android:text="@string/adminDetails_Department"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/adminEditDetails"

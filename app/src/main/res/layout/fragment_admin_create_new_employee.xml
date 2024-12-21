@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_create_new_employee">
+
+    <TextView
+        android:id="@+id/createEmployeeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/createEmployee_Title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/createEmployeeProfileImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/createEmployee_Image"
+        android:src="@android:drawable/ic_menu_camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createEmployeeTitle"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/newEmployeeForename"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="175dp"
+        android:hint="@string/createEmployee_Forename"
+        android:inputType="textPersonName"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createEmployeeTitle"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/newEmployeeEmail"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="175dp"
+        android:hint="@string/createEmployee_Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createEmployeeTitle"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/newEmployeeSurname"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/createEmployee_Surname"
+        android:inputType="textPersonName"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newEmployeeForename"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/joinDateInput"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/createEmployee_joinDate"
+        android:inputType="date"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newEmployeeEmail"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/newID_Input"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:hint="@string/createEmployee_ID"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newEmployeeSurname"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/newDepartmentInput"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/createEmployee_Department"
+        android:inputType="text"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newID_Input"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/newSalaryInput"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/createEmployee_Salary"
+        android:inputType="numberDecimal"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newDepartmentInput"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/newAnnualLeavesInput"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/createEmployee_AnnualLeaves"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/joinDateInput"
+        tools:ignore="Autofill"/>
+
+    <Button
+        android:id="@+id/returnMainHubBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="@string/createEmployee_MainHubBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/createEmployee_ConfirmBtn"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
