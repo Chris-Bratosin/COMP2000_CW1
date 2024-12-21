@@ -133,6 +133,11 @@
     <string name="admin_declineDescription2">Decline for request 2</string>
     <string name="admin_acceptDescription1">Accept for reqeust 1</string>
     <string name="admin_acceptDescription2">Accept for request 2</string>
+    <string name="employee_salary">£2500\n</string>
+    <string name="employee_id">241224\n</string>
+    <string name="employee_department">Finance\n</string>
+    <string name="employee_annualleaves">Annual Leaves: 30</string>
+    <string name="employee_joindate">Joined : 24/10/2024\n</string>
     <!-- Main Hub Page Strings -->
 
     <!-- My Details Page Strings -->
