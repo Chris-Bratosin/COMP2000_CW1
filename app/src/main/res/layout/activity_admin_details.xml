@@ -2,11 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".admin_details">
 
     <TextView
-        android:id="@+id/details_title"
+        android:id="@+id/adminDetails_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
@@ -22,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/adminDetails_profileImg"
         android:layout_width="117dp"
         android:layout_height="113dp"
         android:layout_marginStart="147dp"
@@ -38,7 +40,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView45"
+        android:id="@+id/adminDetails_forename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -52,7 +54,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView46"
+        android:id="@+id/adminDetails_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="211dp"
@@ -66,7 +68,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView47"
+        android:id="@+id/adminDetails_surname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -80,7 +82,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView48"
+        android:id="@+id/adminDetails_dateJoined"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="211dp"
@@ -94,7 +96,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView49"
+        android:id="@+id/adminDetails_annualLeaves"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="211dp"
@@ -110,7 +112,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView50"
+        android:id="@+id/adminDetails_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -126,7 +128,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView52"
+        android:id="@+id/adminDetails_salary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -142,7 +144,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView51"
+        android:id="@+id/adminDetails_department"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -158,7 +160,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/adminEditDetails"
+        android:id="@+id/admD_editBtn"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="125dp"
         android:layout_height="55dp"
@@ -175,7 +177,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/admD_returnBtn"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="125dp"
         android:layout_height="55dp"
