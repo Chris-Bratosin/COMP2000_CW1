@@ -13,6 +13,9 @@
         android:theme="@style/Theme.COMP2000_CW1"
         tools:targetApi="31">
         <activity
+            android:name=".admin_view_employees"
+            android:exported="false" />
+        <activity
             android:name=".admin_delete_employee"
             android:exported="false" />
         <activity

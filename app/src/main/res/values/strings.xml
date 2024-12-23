@@ -214,6 +214,24 @@
     <string name="employeeDelete_deleteBtn3">Delete</string>
     <string name="deleteEmployee_returnBtn">Main Hub</string>
     <string name="deleteEmployee_employeeDeleteBtn2">Delete</string>
+    <string name="admin_viewEmployeesTitle">View Employees</string>
+    <string name="admin_viewEmployeesInstruction">Select and employee to view or edit their details</string>
+    <string name="admin_viewEmployees_editBtn1">Edit</string>
+    <string name="admin_viewEmployees_viewBtn1">View</string>
+    <string name="admin_viewEmployees_eName1">Chris Bratosin</string>
+    <string name="admin_viewEmployees_editBtn2">Edit</string>
+    <string name="admin_viewEmployees_viewBtn2">View</string>
+    <string name="admin_viewEmployees_eName2">Justin Chan</string>
+    <string name="admin_viewEmployees_editBtn3">Edit</string>
+    <string name="admin_viewEmployees_viewBtn3">View</string>
+    <string name="admin_viewEmployees_eName3">Charles Hopes</string>
+    <string name="admin_viewEmployees_returnBtn">Main Hub</string>
+    <string name="admin_viewEmployees_editDesc1">employee 1 edit</string>
+    <string name="admin_viewEmployees_editDesc2">employee 2 edit</string>
+    <string name="admin_viewEmployees_editDesc3">employee 3 edit</string>
+    <string name="admin_viewEmployees_viewDesc1">employee1 view</string>
+    <string name="admin_viewEmployees_viewDesc2">employee 2 view</string>
+    <string name="admin_viewEmployees_viewDesc3">employee 3 view</string>
     <!--Admin Details Page Strings -->
 
 
