@@ -5,24 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin_login">
+    tools:context=".activity_main">
 
-
-    <!-- Admin Login Title -->
 
     <TextView
-        android:id="@+id/adminLoginTitle"
+        android:id="@+id/SignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="@string/adminLogin"
+        android:text="@string/Sign_In"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- Username Input -->
 
     <EditText
         android:id="@+id/usernameEditText"
@@ -30,13 +26,13 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="96dp"
-        android:hint="@string/a_Username"
+        android:hint="@string/signIn_username"
         android:inputType="text"
         android:minHeight="48dp"
         android:textColorHint="#546E7A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/adminLoginTitle"
+        app:layout_constraintTop_toBottomOf="@+id/SignIn"
         tools:ignore="Autofill" />
 
     <EditText
@@ -45,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="24dp"
-        android:hint="@string/a_Password"
+        android:hint="@string/signIn_password"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColorHint="#546E7A"
@@ -70,30 +66,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
 
-    <Button
-        android:id="@+id/employeeLoginButton"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:backgroundTint="@color/holo_blue_dark"
-        android:text="@string/employee_login"
-        android:textColor="#4E342E"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
-
     <TextView
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="44dp"
         android:text="@string/forgot_password"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeLoginButton" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -106,8 +88,31 @@
         android:contentDescription="@string/hide_password_img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/hide_password" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/adminLoginRbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/employeeLoginRbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

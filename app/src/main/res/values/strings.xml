@@ -1,13 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name" tools:ignore="Typos">COMP2000_CW1</string>
-    <!-- Login Page Strings -->
-    <string name="employee_login">Employee Login</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="sign_in">Sign In</string>
-    <string name="admin_login">Admin Login</string>
-    <string name="forgot_password">Forgot Password ?</string>
-    <!-- Login Page Strings -->
+
+    <!-- Employee Details Strings -->
+    <string name="employee_salary">£2500\n</string>
+    <string name="employee_id">1\n</string>
+    <string name="employee_department">Finance\n</string>
+    <string name="employee_annualleaves">Annual Leaves: 30</string>
+    <string name="employee_joindate">Joined : 24/10/2024\n</string>
+    <string name="employee_fname">Chris</string>
+    <string name="employee_sname">Bratosin</string>
+    <string name="employee_email">Chris.bratosin@bkr.com</string>
+    <!-- Employee Details Strings -->
 
     <!-- Main Hub Page Strings -->
     <string name="main_hub">Main Hub</string>
@@ -17,82 +20,36 @@
     <string name="holidays">Holidays</string>
     <string name="settings">Settings</string>
     <string name="log_out">Log Out</string>
-    <string name="employee_details">My Details</string>
-    <string name="employee_name">Chris Bratosin</string>
-    <string name="employee_fname">Chris</string>
-    <string name="employee_sname">Bratosin</string>
-    <string name="employee_email">Chris.bratosin@bkr.com</string>
-    <string name="employee_phonenumber">07894 298571</string>
-    <string name="employee_payroll">Payroll : 241204</string>
-    <string name="employee_address">19 Fusion Close</string>
-    <string name="employee_city">Plymouth</string>
-    <string name="employee_county">Devon</string>
-    <string name="employee_postcode">PL6 1KU</string>
+
+
     <string name="edit_details_btn">Edit Details</string>
     <string name="edit_details_main_hub_btn">Main Hub</string>
     <string name="page_name">PageName</string>
-    <string name="employee_manage_holidays">Manage Holidays</string>
-    <string name="employee_request_holiday">Request Holiday</string>
-    <string name="employee_manage_holiday_btn">Manage Holidays</string>
-    <string name="employee_manage_holiday_return">Main Hub</string>
-    <string name="employee_main_name">Chris Bratosin</string>
-    <string name="deletebtn_1">deletebtn!</string>
-    <string name="deletebtn_2">deletebtn2</string>
-    <string name="deletebtn_3">deletebtn3</string>
-    <string name="deletebtn_4">deletebtn4</string>
-    <string name="deletebtn_5">deletebtn5</string>
-    <string name="deletebtn_6">deletebtn6</string>
-    <string name="deletebtn_7">deletebtn7</string>
-    <string name="deletebtn_8">deletebtn8</string>
-    <string name="deletebtn_9">deletebtn9</string>
-    <string name="employee_request_holiday_page">Request Holidays</string>
-    <string name="employee_holidays">Holidays</string>
-    <string name="select_start_date">Select Start Date</string>
-    <string name="select_end_date">Select End Date</string>
-    <string name="holiday_leave_type">Holiday Leave Type</string>
-    <string name="requestholidayimage">requestholidayimage</string>
-    <string name="manageholidaysimage">manageholidaysimage</string>
-    <string name="holidaysphoto">holidaysphoto</string>
-    <string name="mydetailsimage">mydetailsImage</string>
-    <string name="employee_view_updates">View Updates</string>
-    <string name="employee_submit_changes">Submit Changes</string>
-    <string name="employee_edit_holiday_details">Edit Holiday Detials</string>
-    <string name="employee_select_holiday">Select Holiday</string>
-    <string name="manageholoidaypageimage">manageholoidaypageimage</string>
+
+
     <string name="view_updates">View Updates</string>
     <string name="view_updates_1">You have been assigned to work 19/11/2024 @ 09:00 – 17:30</string>
     <string name="view_updates_2">You have received your annual 5% salary increase. Well Done !</string>
     <string name="view_updates_3">Holiday 15/11/2024 – 17/11/2024 has been approved by Jamie Dimon !</string>
     <string name="my_details_image">my_details_image</string>
-    <string name="forgot_password_title">Forgot Password?</string>
-    <string name="forgotpassword_info">Please enter your email address to receive password reset link</string>
-    <string name="enter_email_address_forgot">Enter Email Address</string>
-    <string name="send_password_email">Send Email</string>
-    <string name="enter_new_password">Enter New Password</string>
-    <string name="confirm_new_password">Confirm New Password</string>
-    <string name="reset_password">Reset Password</string>
-    <string name="password_has_been_successfully_reset">Password has been successfully reset</string>
 
 
-    <string name="adminLogin">Admin Login</string>
-    <string name="admin_username">Admin Username</string>
-    <string name="admin_passwordhint">Admin Password</string>
-    <string name="hide_password_img">hide_password</string>
-    <string name="admin_name">Jamie Dimon</string>
+
+
+
     <string name="admin_holiday_requests">Holiday Requests</string>
     <string name="admin_delete_employee_profile">Delete Employee Profile</string>
     <string name="admin_create_employee_profile">Create Employee Profile</string>
     <string name="admin_view_existing_employees">View Existing Employees</string>
     <string name="settings_button">Settings</string>
     <string name="logout_button">Logout</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
-    <string name="adminD_editDbtn">Edit Details</string>
-    <string name="adminD_mainhubBtn">Main Hub</string>
+
+
+
     <string name="adminD_profilepicture">adminD_profilepicture</string>
-    <string name="adminED_title">Edit Details</string>
+
     <string name="a_Password">Password</string>
     <string name="a_Username">Username</string>
     <string name="name_edit">name_edit</string>
@@ -106,6 +63,7 @@
     <string name="eidt_image">eidt_image</string>
     <string name="edit_mainhub">Main Hub</string>
     <string name="editdetail_btn">Edit Details</string>
+
 
 
     <!--Admin View Holiday Requests-->
@@ -130,21 +88,9 @@
     <!--Admin View Holiday Requests-->
 
 
-    <string name="employee_salary">£2500\n</string>
-    <string name="employee_id">241224\n</string>
-    <string name="employee_department">Finance\n</string>
-    <string name="employee_annualleaves">Annual Leaves: 30</string>
-    <string name="employee_joindate">Joined : 24/10/2024\n</string>
 
-    <!--Admin Details Page Strings -->
-    <string name="adminDetails_name">Jamie</string>
-    <string name="adminDetails_email">Jamie.dimon@bkr.com</string>
-    <string name="adminDetails_surname">Dimon</string>
-    <string name="adminDetails_ID">Admin ID: 2486</string>
-    <string name="adminDetails_Department">Administrator</string>
-    <string name="adminDetails_Salary">£5750</string>
-    <string name="adminDetails_Leaves">Annual Leaves: 30</string>
-    <string name="adminDetails_dateJoined">Date Joined: 20/08/2018</string>
+
+
     <string name="createEmployee_Title">Create Employee Profile</string>
     <string name="createEmployee_Image">defaultImage</string>
     <string name="createEmployee_Forename">Forename</string>
@@ -232,31 +178,23 @@
     <string name="admin_viewEmployees_viewDesc1">employee1 view</string>
     <string name="admin_viewEmployees_viewDesc2">employee 2 view</string>
     <string name="admin_viewEmployees_viewDesc3">employee 3 view</string>
-    <!--Admin Details Page Strings -->
 
 
-    <!-- Main Hub Page Strings -->
-
-    <!-- My Details Page Strings -->
 
 
-    <!-- My Details Page Strings -->
-
-    <!-- Edit Details Page Strings -->
-
-
-    <!-- Edit Details Page Strings -->
-
-    <!-- Holidays Page Strings -->
-
-
-    <!-- Holidays Page Strings -->
+    <!-- Sign In Page Strings -->
+    <string name="Sign_In">Sign In</string>
+    <string name="signIn_password">Password</string>
+    <string name="signIn_username">Username\n</string>
+    <string name="adminLoginRbtn">Admin</string>
+    <string name="employeeLoginRbtn">Employee</string>
+    <!-- Sign In Page Strings -->
 
 
-    <!-- Logout Button Strings -->
 
 
-    <!-- Logout Button Strings -->
+
+
 
 
 </resources>

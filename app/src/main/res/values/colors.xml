@@ -19,6 +19,6 @@
     <color name="dark_gray">#424242</color>
     <color name="holo_blue_dark">#33b5e5</color>
     <color name="dark_red">#8B0000</color>
-
+    <color name="background">#B5C1FF</color>
 
 </resources>

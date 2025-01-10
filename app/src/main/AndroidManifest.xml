@@ -20,53 +20,50 @@
             android:exported="false" />
         <activity
             android:name=".admin_holiday_requests"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".admin_create_new_employee"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".admin_edit_details"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".admin_details"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.COMP2000_CW1" />
         <activity
             android:name=".admin_main_hub"
-            android:exported="false" />
-        <activity
-            android:name=".admin_login"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".employee_view_updates"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".employee_manage_holidays_page"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".employee_request_holiday"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".employee_manage_holidays"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".employee_edit_details"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".employee_view_details"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".PasswordResetConfirmation"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ResetPasswordPage"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".forgot_password_page"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".employee_main_hub"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity_main"
             android:exported="true">
