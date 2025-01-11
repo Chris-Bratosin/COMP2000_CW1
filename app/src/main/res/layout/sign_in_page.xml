@@ -77,22 +77,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="41dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="374dp"
-        android:layout_marginTop="251dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="445dp"
-        android:contentDescription="@string/hide_password_img"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/hide_password" />
 
     <RadioButton
         android:id="@+id/radioButton"

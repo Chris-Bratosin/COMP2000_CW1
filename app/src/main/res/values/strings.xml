@@ -12,26 +12,19 @@
     <string name="employee_email">Chris.bratosin@bkr.com</string>
     <!-- Employee Details Strings -->
 
-    <!-- Main Hub Page Strings -->
-    <string name="main_hub">Main Hub</string>
-    <string name="employee_picture">EmployeePicture</string>
-    <string name="chris_bratosin">Chris Bratosin</string>
-    <string name="my_details_2">My Details</string>
-    <string name="holidays">Holidays</string>
-    <string name="settings">Settings</string>
-    <string name="log_out">Log Out</string>
+    <!-- Sign In Page Strings -->
+    <string name="Sign_In">Sign In</string>
+    <string name="signIn_password">Password</string>
+    <string name="signIn_username">Username\n</string>
+    <string name="adminLoginRbtn">Admin</string>
+    <string name="employeeLoginRbtn">Employee</string>
+    <string name="exampleNotification">example of notification</string>
+    <string name="notificationsHome">Home</string>
+    <string name="notificationsTitle">Notifications</string>
+    <string name="sign_in">Sign In\n</string>
+    <string name="forgot_password">Forgot Password ?\n</string>
+    <!-- Sign In Page Strings -->
 
-
-    <string name="edit_details_btn">Edit Details</string>
-    <string name="edit_details_main_hub_btn">Main Hub</string>
-    <string name="page_name">PageName</string>
-
-
-    <string name="view_updates">View Updates</string>
-    <string name="view_updates_1">You have been assigned to work 19/11/2024 @ 09:00 – 17:30</string>
-    <string name="view_updates_2">You have received your annual 5% salary increase. Well Done !</string>
-    <string name="view_updates_3">Holiday 15/11/2024 – 17/11/2024 has been approved by Jamie Dimon !</string>
-    <string name="my_details_image">my_details_image</string>
 
 
     <string name="admin_holiday_requests">Holiday Requests</string>
@@ -40,23 +33,6 @@
     <string name="admin_view_existing_employees">View Existing Employees</string>
     <string name="settings_button">Settings</string>
     <string name="logout_button">Logout</string>
-
-
-    <string name="adminD_profilepicture">adminD_profilepicture</string>
-
-    <string name="a_Password">Password</string>
-    <string name="a_Username">Username</string>
-    <string name="name_edit">name_edit</string>
-    <string name="surname_edit">surname_edit</string>
-    <string name="email_edit">email_edit</string>
-    <string name="number_edit">number_edit</string>
-    <string name="address_edit">address_edit</string>
-    <string name="city_edit">city_edit</string>
-    <string name="postcode_edit">postcode_edit</string>
-    <string name="county_edit">county_edit</string>
-    <string name="eidt_image">eidt_image</string>
-    <string name="edit_mainhub">Main Hub</string>
-    <string name="editdetail_btn">Edit Details</string>
 
 
     <!--Admin View Holiday Requests-->
@@ -81,6 +57,7 @@
     <!--Admin View Holiday Requests-->
 
 
+    <!--Admin Create Employee Strings-->
     <string name="createEmployee_Title">Create Employee Profile</string>
     <string name="createEmployee_Image">defaultImage</string>
     <string name="createEmployee_Forename">Forename</string>
@@ -136,22 +113,11 @@
     <string name="admin_viewEmployees_viewDesc3">employee 3 view</string>
 
 
-    <!-- Sign In Page Strings -->
-    <string name="Sign_In">Sign In</string>
-    <string name="signIn_password">Password</string>
-    <string name="signIn_username">Username\n</string>
-    <string name="adminLoginRbtn">Admin</string>
-    <string name="employeeLoginRbtn">Employee</string>
-    <string name="exampleNotification">example of notification</string>
-    <string name="notificationsHome">Home</string>
-    <string name="notificationsTitle">Notifications</string>
-    <string name="sign_in">Sign In\n</string>
-    <string name="forgot_password">Forgot Password ?\n</string>
+
     <string name="hide_password_img">Hide password icon</string>
     <string name="settingsTitle">Settings</string>
     <string name="settingsLogout">Logout</string>
     <string name="settingsHome">Home</string>
-    <!-- Sign In Page Strings -->
-
+    <string name="main_hub">Main Hub</string>
 
 </resources>
