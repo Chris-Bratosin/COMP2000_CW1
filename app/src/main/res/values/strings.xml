@@ -188,6 +188,9 @@
     <string name="signIn_username">Username\n</string>
     <string name="adminLoginRbtn">Admin</string>
     <string name="employeeLoginRbtn">Employee</string>
+    <string name="exampleNotification">example of notification</string>
+    <string name="notificationsHome">Home</string>
+    <string name="notificationsTitle">Notifications</string>
     <!-- Sign In Page Strings -->
 
 
