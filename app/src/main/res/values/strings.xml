@@ -191,6 +191,9 @@
     <string name="exampleNotification">example of notification</string>
     <string name="notificationsHome">Home</string>
     <string name="notificationsTitle">Notifications</string>
+    <string name="sign_in">Sign In\n</string>
+    <string name="forgot_password">Forgot Password ?\n</string>
+    <string name="hide_password_img">Hide password icon</string>
     <!-- Sign In Page Strings -->
 
 
