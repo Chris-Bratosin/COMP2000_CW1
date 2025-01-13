@@ -15,6 +15,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="27dp"
         android:text="@string/employee_fname"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeEmail" />
@@ -25,6 +26,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="25dp"
         android:text="@string/employee_sname"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeJoinedDate" />
@@ -35,6 +37,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="26dp"
         android:text="@string/employee_joindate"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeID"
@@ -46,6 +49,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="24dp"
         android:text="@string/employee_email"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeDepartment" />
@@ -56,6 +60,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="25dp"
         android:text="@string/employee_annualleaves"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeSalary" />
@@ -66,6 +71,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="24dp"
         android:text="@string/employee_id"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeFirstName"
@@ -77,6 +83,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="64dp"
         android:text="@string/employee_department"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,6 +96,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="24dp"
         android:text="@string/employee_salary"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeSecondName"
