@@ -21,71 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/employeeCard1"
-        android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:layout_margin="8dp"
-        android:layout_marginTop="52dp"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/admin_viewEmployeesInstruction"
-        app:layout_editor_absoluteX="5dp"
-        app:layout_editor_absoluteY="175dp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:padding="8dp">
-
-            <Button
-                android:id="@+id/admin_viewEmployees_editBtn1"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="88dp"
-                android:layout_marginBottom="8dp"
-                android:backgroundTint="@android:color/holo_green_dark"
-                android:contentDescription="@string/admin_viewEmployees_editDesc1"
-                android:text="@string/admin_viewEmployees_editBtn1"
-                android:textColor="#212121"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-
-            <Button
-                android:id="@+id/admin_viewEmployees_viewBtn1"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="88dp"
-                android:layout_marginBottom="8dp"
-                android:backgroundTint="@android:color/holo_green_dark"
-                android:contentDescription="@string/admin_viewEmployees_viewDesc1"
-                android:text="@string/admin_viewEmployees_viewBtn1"
-                android:textColor="#212121"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/admin_viewEmployees_eName1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/admin_viewEmployees_eName1"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
-                app:layout_editor_absoluteX="137dp" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.cardview.widget.CardView>
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -129,15 +64,26 @@
         android:id="@+id/admin_viewEmployeesInstruction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="103dp"
         android:gravity="center"
         android:text="@string/admin_viewEmployeesInstruction"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/admin_viewEmployeesTitle" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="490dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="176dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
