@@ -19,6 +19,7 @@
         android:inputType="text"
         android:text="@string/employee_fname"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeEmail"
@@ -34,96 +35,97 @@
         android:inputType="text"
         android:text="@string/employee_sname"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeJoinedDate"
         tools:ignore="LabelFor,TextSizeCheck" />
 
-    <EditText
+    <TextView
         android:id="@+id/employeeJoinedDate"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:autofillHints="date joined"
         android:background="@color/white"
-        android:inputType="date"
         android:text="@string/employee_joindate"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeID"
         tools:ignore="LabelFor,TextSizeCheck" />
 
-    <EditText
+    <TextView
         android:id="@+id/employeeEmail"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:autofillHints="email address"
         android:background="@color/white"
-        android:inputType="textEmailAddress"
         android:text="@string/employee_email"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeDepartment"
         tools:ignore="LabelFor,TextSizeCheck" />
 
-    <EditText
+    <TextView
         android:id="@+id/employeeLeaves"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:autofillHints="annual leaves"
         android:background="@color/white"
-        android:inputType="number"
         android:text="@string/employee_annualleaves"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeSalary"
         tools:ignore="LabelFor,TextSizeCheck" />
 
-    <EditText
+    <TextView
         android:id="@+id/employeeID"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="12dp"
         android:autofillHints="ID"
         android:background="@color/white"
-        android:inputType="number"
         android:text="@string/employee_id"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeFirstName"
         tools:ignore="LabelFor,TextSizeCheck" />
 
-    <EditText
+    <TextView
         android:id="@+id/employeeDepartment"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="12dp"
         android:autofillHints="Department"
         android:background="@color/white"
-        android:inputType="text"
         android:text="@string/employee_department"
+        android:gravity="center"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="LabelFor,TextSizeCheck" />
 
-    <EditText
+    <TextView
         android:id="@+id/employeeSalary"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:autofillHints="Salary"
         android:background="@color/white"
-        android:inputType="numberDecimal"
         android:text="@string/employee_salary"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeSecondName"
@@ -170,20 +172,6 @@
         tools:ignore="ImageContrastCheck" />
 
     <ImageView
-        android:id="@+id/emailEditIcon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/placeHolder"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.852"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298"
-        app:srcCompat="@android:drawable/ic_input_delete"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView
         android:id="@+id/firstNameEditIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -207,7 +195,7 @@
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572"
+        app:layout_constraintVertical_bias="0.666"
         app:srcCompat="@android:drawable/ic_input_delete"
         tools:ignore="ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

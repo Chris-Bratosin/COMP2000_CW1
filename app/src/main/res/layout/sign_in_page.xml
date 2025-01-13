@@ -70,33 +70,12 @@
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="28dp"
         android:text="@string/forgot_password"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
-
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="110dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/adminLoginRbtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
-
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="110dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/employeeLoginRbtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signInButton" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
