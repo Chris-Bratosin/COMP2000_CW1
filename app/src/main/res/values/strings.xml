@@ -26,7 +26,6 @@
     <!-- Sign In Page Strings -->
 
 
-
     <string name="admin_holiday_requests">Holiday Requests</string>
     <string name="admin_delete_employee_profile">Delete Employee Profile</string>
     <string name="admin_create_employee_profile">Create Employee Profile</string>
@@ -77,7 +76,6 @@
     <string name="previous">Previous</string>
 
 
-
     <string name="deleteEmployee_title">Delete Employee Profile</string>
     <string name="deleteEmployee_instructionText">Select which employee profile you would like to remove from the list below:</string>
     <string name="deleteEmployee_cbImageDesc">Image for Chris Bratosin</string>
@@ -113,11 +111,21 @@
     <string name="admin_viewEmployees_viewDesc3">employee 3 view</string>
 
 
-
     <string name="hide_password_img">Hide password icon</string>
     <string name="settingsTitle">Settings</string>
     <string name="settingsLogout">Logout</string>
     <string name="settingsHome">Home</string>
     <string name="main_hub">Main Hub</string>
+    <string name="employeeCard">Employee:</string>
+    <string name="view_edit_employeeCard">View/Edit</string>
+    <string name="edit_details_btn">Edit Details</string>
+    <string name="request_holidayBtn">Request Holiday</string>
+    <string name="manage_holidayBtn">Manage Holiday</string>
+    <string name="reqHol_homeBtn">Home</string>
+    <string name="reqHol_confrimBtn">Confirm</string>
+    <string name="select_start_date">Select Start Date</string>
+    <string name="select_end_date">Select End Date</string>
+    <string name="Email">Email</string>
+    <string name="employeeDeleteBtn">Delete</string>
 
 </resources>
