@@ -9,98 +9,135 @@
     tools:context=".employee_view_details">
 
 
-    <TextView
+    <EditText
         android:id="@+id/employeeFirstName"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="27dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="firstname"
+        android:background="@color/white"
+        android:inputType="text"
         android:text="@string/employee_fname"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeEmail"
+        tools:ignore="LabelFor,TextSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/employeeSecondName"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="25dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="surname"
+        android:background="@color/white"
+        android:inputType="text"
         android:text="@string/employee_sname"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeJoinedDate" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeJoinedDate"
+        tools:ignore="LabelFor,TextSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/employeeJoinedDate"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="26dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="date joined"
+        android:background="@color/white"
+        android:inputType="date"
         android:text="@string/employee_joindate"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeID"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="LabelFor,TextSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/employeeEmail"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="email address"
+        android:background="@color/white"
+        android:inputType="textEmailAddress"
         android:text="@string/employee_email"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeDepartment" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeDepartment"
+        tools:ignore="LabelFor,TextSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/employeeLeaves"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="25dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="annual leaves"
+        android:background="@color/white"
+        android:inputType="number"
         android:text="@string/employee_annualleaves"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeSalary" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeSalary"
+        tools:ignore="LabelFor,TextSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/employeeID"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="ID"
+        android:background="@color/white"
+        android:inputType="number"
         android:text="@string/employee_id"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeFirstName"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="LabelFor,TextSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/employeeDepartment"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="64dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="Department"
+        android:background="@color/white"
+        android:inputType="text"
         android:text="@string/employee_department"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="LabelFor,TextSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/employeeSalary"
         android:layout_width="185dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Salary"
+        android:background="@color/white"
+        android:inputType="numberDecimal"
         android:text="@string/employee_salary"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeSecondName"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="LabelFor,TextSizeCheck" />
 
     <Button
         android:id="@+id/editDetailsBtn"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="@string/edit_details_btn"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/editDetails_BackBtn"
+        android:textColor="#1B5E20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,10 +148,11 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="150dp"
         android:layout_height="48dp"
-        android:layout_marginTop="44dp"
-        android:text="Holidays"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/editDetailsConfirm"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.816"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeLeaves" />
 
@@ -123,45 +161,53 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:contentDescription="@string/placeHolder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/emailEditIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/placeHolder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333"
-        app:srcCompat="@android:drawable/ic_input_delete" />
+        app:layout_constraintVertical_bias="0.298"
+        app:srcCompat="@android:drawable/ic_input_delete"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/firstNameEditIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/deleteicon3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408"
-        app:srcCompat="@android:drawable/ic_input_delete" />
+        app:layout_constraintVertical_bias="0.396"
+        app:srcCompat="@android:drawable/ic_input_delete"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/secondNameEditIcon2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/deleteicon2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.620"
-        app:srcCompat="@android:drawable/ic_input_delete" />
+        app:layout_constraintVertical_bias="0.572"
+        app:srcCompat="@android:drawable/ic_input_delete"
+        tools:ignore="ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

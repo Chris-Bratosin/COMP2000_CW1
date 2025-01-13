@@ -24,13 +24,16 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:text="@string/admin_viewEmployees_returnBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/addEmployeeBtn"
@@ -38,7 +41,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/white"
-        android:text="Add Employee"
+        android:text="@string/viewEmployees_AddEmployeeBtn"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,19 +55,20 @@
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/white"
-        android:text="Delete Employee"
+        android:text="@string/viewEmployee_deleteEmployees"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.932"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/admin_viewEmployeesTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/admin_viewEmployeesTitle"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/admin_viewEmployeesInstruction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="103dp"
+        android:layout_marginTop="84dp"
         android:gravity="center"
         android:text="@string/admin_viewEmployeesInstruction"
         android:textColor="@color/black"
@@ -74,15 +78,15 @@
         app:layout_constraintTop_toBottomOf="@+id/admin_viewEmployeesTitle" />
 
     <ScrollView
+        android:id="@+id/scrollView3"
         android:layout_width="409dp"
         android:layout_height="490dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="176dp">
+        android:layout_marginTop="19dp"
+        android:contentDescription="@string/view_for_viewing_employees"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin_viewEmployeesInstruction">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
     </ScrollView>
 
 

@@ -14,22 +14,24 @@
         android:layout_width="185dp"
         android:layout_height="25dp"
         android:layout_marginTop="27dp"
-        android:text="@string/employee_fname"
         android:background="@color/white"
+        android:text="@string/employee_fname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeEmail"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/employeeSecondName"
         android:layout_width="185dp"
         android:layout_height="25dp"
         android:layout_marginTop="25dp"
-        android:text="@string/employee_sname"
         android:background="@color/white"
+        android:text="@string/employee_sname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeJoinedDate" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeJoinedDate"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/employeeJoinedDate"
@@ -48,22 +50,24 @@
         android:layout_width="185dp"
         android:layout_height="25dp"
         android:layout_marginTop="24dp"
-        android:text="@string/employee_email"
         android:background="@color/white"
+        android:text="@string/employee_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeDepartment" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeDepartment"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/employeeLeaves"
         android:layout_width="185dp"
         android:layout_height="25dp"
         android:layout_marginTop="25dp"
-        android:text="@string/employee_annualleaves"
         android:background="@color/white"
+        android:text="@string/employee_annualleaves"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeSalary" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeSalary"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/employeeID"
@@ -109,6 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="@string/edit_details_btn"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +125,8 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="Settings"
+        android:text="@string/eDetailsSettings"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
@@ -132,11 +138,13 @@
         android:layout_width="150dp"
         android:layout_height="48dp"
         android:layout_marginTop="100dp"
-        android:text="Notifications"
+        android:backgroundTint="@color/white"
+        android:text="@string/eDetailsNotifications"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.823"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeLeaves" />
+        app:layout_constraintTop_toBottomOf="@+id/employeeLeaves"
+        tools:ignore="TextSizeCheck" />
 
     <Button
         android:id="@+id/employeeHolidaysBtn"
@@ -144,7 +152,8 @@
         android:layout_width="150dp"
         android:layout_height="48dp"
         android:layout_marginTop="36dp"
-        android:text="Holidays"
+        android:text="@string/eDetailsHolidays"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.823"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,9 +164,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:contentDescription="@string/placeHolder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

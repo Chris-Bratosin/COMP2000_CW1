@@ -130,5 +130,20 @@
     <string name="select_new_start_date">Select New Start Date</string>
     <string name="select_new_end_date">Select New End Date</string>
     <string name="select_holiday">Select Holiday</string>
+    <string name="editDetails_BackBtn">Back</string>
+    <string name="editDetailsConfirm">Confirm</string>
+    <string name="eDetailsNotifications">Notifications</string>
+    <string name="eDetailsSettings">Settings</string>
+    <string name="eDetailsHolidays">Holidays</string>
+    <string name="deleteEmplyoeeBackbtn">Back</string>
+    <string name="holidayRequestsList">View list of holiday requests</string>
+    <string name="createEmployeeBackBtn">Back</string>
+    <string name="deleteEmpScroll">View for deleting employee\n</string>
+    <string name="view_for_viewing_employees">View for viewing employees</string>
+    <string name="viewEmployees_AddEmployeeBtn">Add Employee</string>
+    <string name="viewEmployee_deleteEmployees">Delete Employee</string>
+    <string name="placeHolder">placeholder Image</string>
+    <string name="deleteicon3">deleteIcon3</string>
+    <string name="deleteicon2">deleteIcon2</string>
 
 </resources>
