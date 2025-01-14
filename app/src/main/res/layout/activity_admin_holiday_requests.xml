@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".admin_holiday_requests">
+    tools:context=".Admin.admin_holiday_requests">
 
     <!-- Page Title -->
 

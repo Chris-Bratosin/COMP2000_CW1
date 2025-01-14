@@ -1,4 +1,4 @@
-package com.example.comp2000_cw1;
+package com.example.comp2000_cw1.Shared;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,13 +11,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class employee_request_holiday extends AppCompatActivity {
+import com.example.comp2000_cw1.Employee.employee_view_details;
+import com.example.comp2000_cw1.R;
+
+public class settings_page extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.employee_request_holiday);
+        setContentView(R.layout.settings_page);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -25,17 +28,16 @@ public class employee_request_holiday extends AppCompatActivity {
         });
 
         //code to find the button to navigate to the holidays page
-        Button reqHol_homeBtn = findViewById(R.id.reqHol_homeBtn);
+        Button settingsHomeBtn = findViewById(R.id.settingsHomeBtn);
 
         //setting the onClickListener so that navigation to home holidays page is possible
-        reqHol_homeBtn.setOnClickListener(new View.OnClickListener() {
+        settingsHomeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(employee_request_holiday.this, employee_holidays.class);
+                Intent intent = new Intent(settings_page.this, employee_view_details.class);
                 startActivity(intent);
             }
         });
-
-
     }
 }
+

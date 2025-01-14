@@ -1,4 +1,4 @@
-package com.example.comp2000_cw1;
+package com.example.comp2000_cw1.Admin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,13 +11,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class settings_page extends AppCompatActivity {
+import com.example.comp2000_cw1.R;
+
+public class admin_settings_page extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.settings_page);
+        setContentView(R.layout.admin_settings_page);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -25,16 +27,15 @@ public class settings_page extends AppCompatActivity {
         });
 
         //code to find the button to navigate to the holidays page
-        Button settingsHomeBtn = findViewById(R.id.settingsHomeBtn);
+        Button returnHomeSet = findViewById(R.id.returnHomeSet);
 
         //setting the onClickListener so that navigation to home holidays page is possible
-        settingsHomeBtn.setOnClickListener(new View.OnClickListener() {
+        returnHomeSet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(settings_page.this, employee_view_details.class);
+                Intent intent = new Intent(admin_settings_page.this, admin_main_hub.class);
                 startActivity(intent);
             }
         });
     }
 }
-

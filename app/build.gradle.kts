@@ -47,10 +47,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
 
-    //Retrofit API integration
-    implementation(libs.retrofit)
-    implementation(libs.converter.gson)
-
 
 
 

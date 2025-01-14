@@ -1,4 +1,4 @@
-package com.example.comp2000_cw1;
+package com.example.comp2000_cw1.Admin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,27 +11,29 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class employee_edit_details extends AppCompatActivity {
+import com.example.comp2000_cw1.R;
+
+public class admin_create_new_employee extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.employee_edit_details);
+        setContentView(R.layout.activity_admin_create_new_employee);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        //code to find the button to navigate back to details page
-        Button editDbackBtn = findViewById(R.id.editDbackBtn);
 
-        //setting the onClickListener so that navigation to employee_details is possible
-        editDbackBtn.setOnClickListener(new View.OnClickListener() {
+        Button createEmployee_returnBtn = findViewById(R.id.createEmployee_returnBtn);
+
+
+        createEmployee_returnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(employee_edit_details.this, employee_view_details.class);
+                Intent intent = new Intent(admin_create_new_employee.this, admin_view_employees.class);
                 startActivity(intent);
             }
         });

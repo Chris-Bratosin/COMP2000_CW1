@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/main"
     android:background="@color/background"
-    tools:context=".admin_main_hub">
+    tools:context=".Admin.admin_main_hub">
 
 
     <TextView
