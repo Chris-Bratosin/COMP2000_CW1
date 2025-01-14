@@ -10,32 +10,32 @@
 
 
     <EditText
-        android:id="@+id/employeeFirstName"
+        android:id="@+id/employeeEditFirstName"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:autofillHints="firstname"
         android:background="@color/white"
+        android:gravity="center"
         android:inputType="text"
         android:text="@string/employee_fname"
         android:textSize="16sp"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeEmail"
         tools:ignore="LabelFor,TextSizeCheck" />
 
     <EditText
-        android:id="@+id/employeeSecondName"
+        android:id="@+id/employeeEditSecondName"
         android:layout_width="185dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:autofillHints="surname"
         android:background="@color/white"
+        android:gravity="center"
         android:inputType="text"
         android:text="@string/employee_sname"
         android:textSize="16sp"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/employeeJoinedDate"
@@ -93,12 +93,12 @@
         android:layout_marginTop="12dp"
         android:autofillHints="ID"
         android:background="@color/white"
+        android:gravity="center"
         android:text="@string/employee_id"
         android:textSize="16sp"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/employeeEditFirstName"
         tools:ignore="LabelFor,TextSizeCheck" />
 
     <TextView
@@ -123,16 +123,16 @@
         android:layout_marginTop="16dp"
         android:autofillHints="Salary"
         android:background="@color/white"
+        android:gravity="center"
         android:text="@string/employee_salary"
         android:textSize="16sp"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employeeSecondName"
+        app:layout_constraintTop_toBottomOf="@+id/employeeEditSecondName"
         tools:ignore="LabelFor,TextSizeCheck" />
 
     <Button
-        android:id="@+id/editDetailsBtn"
+        android:id="@+id/editDbackBtn"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -146,7 +146,7 @@
         app:layout_constraintTop_toBottomOf="@+id/employeeLeaves" />
 
     <Button
-        android:id="@+id/employeeHolidaysBtn"
+        android:id="@+id/employeeConfirmBtn"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="150dp"
         android:layout_height="48dp"
@@ -181,7 +181,7 @@
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396"
+        app:layout_constraintVertical_bias="0.339"
         app:srcCompat="@android:drawable/ic_input_delete"
         tools:ignore="ImageContrastCheck" />
 
@@ -195,7 +195,7 @@
         app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666"
+        app:layout_constraintVertical_bias="0.573"
         app:srcCompat="@android:drawable/ic_input_delete"
         tools:ignore="ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

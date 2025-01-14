@@ -10,7 +10,7 @@
     tools:ignore="VisualLintBounds">
 
     <CalendarView
-        android:id="@+id/holidayCalendar"
+        android:id="@+id/holidayCalendar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/reqHol_confirmBtn"
+        android:id="@+id/ManageHol_confirmBtn"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_marginTop="27dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/selectNewEnd" />
 
     <Button
-        android:id="@+id/reqHol_homeBtn"
+        android:id="@+id/mHolidaysHomeBtn"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_marginTop="14dp"
@@ -42,7 +42,7 @@
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reqHol_confirmBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/ManageHol_confirmBtn" />
 
     <EditText
         android:id="@+id/selectStart"
@@ -57,7 +57,7 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/holidayCalendar"
+        app:layout_constraintTop_toBottomOf="@+id/holidayCalendar2"
         tools:ignore="Autofill" />
 
     <EditText

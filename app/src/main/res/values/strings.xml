@@ -121,7 +121,7 @@
     <string name="edit_details_btn">Edit Details</string>
     <string name="request_holidayBtn">Request Holiday</string>
     <string name="manage_holidayBtn">Manage Holiday</string>
-    <string name="reqHol_homeBtn">Home</string>
+    <string name="reqHol_homeBtn">Back</string>
     <string name="reqHol_confrimBtn">Confirm</string>
     <string name="select_start_date">Select Start Date</string>
     <string name="select_end_date">Select End Date</string>

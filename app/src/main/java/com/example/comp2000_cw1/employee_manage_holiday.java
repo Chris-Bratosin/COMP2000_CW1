@@ -1,6 +1,9 @@
 package com.example.comp2000_cw1;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +22,18 @@ public class employee_manage_holiday extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        //code to find the button to navigate back to the holidays page
+        Button mHolidaysHomeBtn = findViewById(R.id.mHolidaysHomeBtn);
+
+        //setting the onClickListener so that navigation to holidays page is possible
+        mHolidaysHomeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(employee_manage_holiday.this, employee_holidays.class);
+                startActivity(intent);
+            }
         });
     }
 }
