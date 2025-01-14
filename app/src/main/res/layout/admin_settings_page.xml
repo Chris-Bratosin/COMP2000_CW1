@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".settings_page">
+
+    <TextView
+        android:id="@+id/settingsTitle"
+        android:layout_width="258dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/settingsTitle"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/admin_logoutBtn"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="16dp"
+        android:text="@string/settingsLogout"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/returnHomeSet" />
+
+    <Button
+        android:id="@+id/returnHomeSet"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@color/white"
+        android:paddingHorizontal="16dp"
+        android:text="@string/settingsHome"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/settingsTitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,9 @@
 package com.example.comp2000_cw1;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +22,18 @@ public class admin_holiday_requests extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+
+        Button holidayRequest_returnBtn = findViewById(R.id.holidayRequest_returnBtn);
+
+
+        holidayRequest_returnBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(admin_holiday_requests.this, admin_main_hub.class);
+                startActivity(intent);
+            }
         });
     }
 }

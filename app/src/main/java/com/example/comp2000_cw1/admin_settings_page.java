@@ -11,27 +11,27 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class admin_create_new_employee extends AppCompatActivity {
+public class admin_settings_page extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_admin_create_new_employee);
+        setContentView(R.layout.admin_settings_page);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
+        //code to find the button to navigate to the holidays page
+        Button returnHomeSet = findViewById(R.id.returnHomeSet);
 
-        Button createEmployee_returnBtn = findViewById(R.id.createEmployee_returnBtn);
-
-
-        createEmployee_returnBtn.setOnClickListener(new View.OnClickListener() {
+        //setting the onClickListener so that navigation to home holidays page is possible
+        returnHomeSet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(admin_create_new_employee.this, admin_view_employees.class);
+                Intent intent = new Intent(admin_settings_page.this, admin_main_hub.class);
                 startActivity(intent);
             }
         });
