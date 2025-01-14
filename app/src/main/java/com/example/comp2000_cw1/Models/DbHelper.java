@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 public class DbHelper extends SQLiteOpenHelper {
 
-    private static final String DATABASE_NAME = "users.db";
+    private static final String DATABASE_NAME = "USERS.db";
     private static final int DATABASE_VERSION = 3;
 
     public static final String TABLE_USERS = "users";
@@ -24,17 +24,17 @@ public class DbHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        String createTable = "CREATE TABLE " + TABLE_USERS + "(" +
-                COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                COLUMN_EMAIL + " TEXT NOT NULL, " +
-                COLUMN_PASSWORD + "TEXT NOT NULL," +
-                COLUMN_ROLE + "TEXT NOT NULL" +
+        String createTable = "CREATE TABLE " + TABLE_USERS + "("  +
+                COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "  +
+                COLUMN_EMAIL + " TEXT NOT NULL, "  +
+                COLUMN_PASSWORD + "TEXT NOT NULL, "  +
+                COLUMN_ROLE + "TEXT NOT NULL "  +
                 ")";
         db.execSQL(createTable);
 
 
-        db.execSQL("INSERT INTO " + TABLE_USERS + " (" + COLUMN_EMAIL + ", " + COLUMN_PASSWORD + ", " + COLUMN_ROLE + ") VALUES ('user', 'user', 'employee')");
-        db.execSQL("INSERT INTO " + TABLE_USERS + " (" + COLUMN_EMAIL + ", " + COLUMN_PASSWORD + ", " + COLUMN_ROLE + ") VALUES ('admin', 'admin', 'admin')");
+        db.execSQL("INSERT INTO " + TABLE_USERS + " (" + COLUMN_EMAIL + ", " + COLUMN_PASSWORD + ", " + COLUMN_ROLE + ") VALUES ('admin@gmail.com', 'admin123', 'admin')");
+        db.execSQL("INSERT INTO " + TABLE_USERS + " (" + COLUMN_EMAIL + ", " + COLUMN_PASSWORD + ", " + COLUMN_ROLE + ") VALUES ('employee123@gmail.com', 'employee123', 'employee')");
 
     }
 

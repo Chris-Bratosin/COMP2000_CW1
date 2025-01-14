@@ -12,6 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.comp2000_cw1.R;
+import com.example.comp2000_cw1.Shared.settings_page;
 
 public class employee_request_holiday extends AppCompatActivity {
 
@@ -24,6 +25,18 @@ public class employee_request_holiday extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        //code to find the button to navigate to the settings page
+        Button reqHol_homeBtn = findViewById(R.id.reqHol_homeBtn);
+
+        //setting the onClickListener so that navigation to settings page is possible
+        reqHol_homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(employee_request_holiday.this, employee_view_details.class);
+                startActivity(intent);
+            }
         });
 
 
