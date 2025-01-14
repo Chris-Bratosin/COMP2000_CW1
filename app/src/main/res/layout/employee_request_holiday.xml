@@ -53,7 +53,7 @@
         android:layout_marginTop="12dp"
         android:autofillHints="startDate"
         android:background="@color/white"
-        android:ems="10"
+        android:textSize="16sp"
         android:gravity="center"
         android:hint="@string/select_start_date"
         android:inputType="date"
