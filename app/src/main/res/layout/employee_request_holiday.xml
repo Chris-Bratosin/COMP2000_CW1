@@ -24,23 +24,25 @@
         android:id="@+id/reqHol_confirmBtn"
         android:layout_width="125dp"
         android:layout_height="50dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="@color/white"
         android:text="@string/reqHol_confrimBtn"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selectEnd" />
+        app:layout_constraintTop_toBottomOf="@+id/holidayCalendar" />
 
     <Button
         android:id="@+id/reqHol_homeBtn"
         android:layout_width="125dp"
         android:layout_height="50dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="4dp"
         android:backgroundTint="@color/white"
         android:text="@string/reqHol_homeBtn"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reqHol_confirmBtn" />
 
@@ -48,7 +50,7 @@
         android:id="@+id/selectStart"
         android:layout_width="200dp"
         android:layout_height="48dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="12dp"
         android:autofillHints="startDate"
         android:background="@color/white"
         android:ems="10"
@@ -57,6 +59,7 @@
         android:inputType="date"
         android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/holidayCalendar" />
 
@@ -64,7 +67,7 @@
         android:id="@+id/selectEnd"
         android:layout_width="202dp"
         android:layout_height="48dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="8dp"
         android:autofillHints="endDate"
         android:background="@color/white"
         android:ems="10"
@@ -73,8 +76,31 @@
         android:inputType="date"
         android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selectStart" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/holidayRequestView"
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectEnd" />
+
+    <Button
+        android:id="@+id/ammendHoliday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/ammendBtn"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/holidayRequestView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

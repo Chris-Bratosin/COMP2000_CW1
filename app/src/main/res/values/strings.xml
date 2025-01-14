@@ -145,5 +145,6 @@
     <string name="placeHolder">placeholder Image</string>
     <string name="deleteicon3">deleteIcon3</string>
     <string name="deleteicon2">deleteIcon2</string>
+    <string name="ammendBtn">Ammend</string>
 
 </resources>

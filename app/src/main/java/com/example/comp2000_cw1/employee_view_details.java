@@ -44,7 +44,7 @@ public class employee_view_details extends AppCompatActivity {
         employeeHolidaysBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(employee_view_details.this, employee_holidays.class);
+                Intent intent = new Intent(employee_view_details.this, employee_request_holiday.class);
                 startActivity(intent);
             }
         });

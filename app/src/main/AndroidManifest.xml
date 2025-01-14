@@ -16,9 +16,6 @@
             android:name=".admin_settings_page"
             android:exported="false" />
         <activity
-            android:name=".employee_manage_holiday"
-            android:exported="true" />
-        <activity
             android:name=".employee_request_holiday"
             android:exported="true" />
         <activity
@@ -41,9 +38,6 @@
             android:exported="true" />
         <activity
             android:name=".employee_notifications"
-            android:exported="true" />
-        <activity
-            android:name=".employee_holidays"
             android:exported="true" />
         <activity
             android:name=".employee_edit_details"
